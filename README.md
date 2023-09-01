@@ -17,7 +17,7 @@ I have used css property to arrenge in right place in conatiner ,such as padding
 # JAVASCRIPT:
 I have used Document object model.Here i used getElementById("container") to traget the dom object and change the property backgroundColor by using the statement is document.getElementById("Dom")style.backgoundColor="blueviolet".
 
-# FILNAL UI:
+# FINAL UI:
 ![image](https://github.com/Animesh5106/Day-9_class_Assignment/assets/70014233/5c659efc-a2b4-46e7-bb2b-9787febce2b9)
 
 
