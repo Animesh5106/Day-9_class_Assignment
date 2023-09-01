@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-9 Assignment</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        #container{
+            height: 300px;
+            width: 400px;
+            border: solid blue 3px;
+            margin: 100px auto 20px;
+            background-color:green;
+        }
+        #container p{
+            text-align: center;
+            font-size: 20px;
+            padding-top: 100px;
+            color: azure;
+        }
+        .button{
+            margin-left:500px;
+            margin-bottom: 15px;
+        }
+        button{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <p id="Dom">DOM manipulation with five propertise </p>
+    </div>
+    <div class="button">
+    <button type="button" onclick="myFunction()">Set color</button>
+    </div>
+    <div class="button">
+    <button type="button" onclick="my1Function()">Set background color</button>
+    </div>
+    <div class="button">
+    <button type="button" onclick="my2Function()">Set padding </button>
+    </div>
+    <div class="button">
+    <button type="button" onclick="my3Function()">Set Font-size</button>
+    </div>
+    <div class="button">
+    <button type="button" onclick="my4Function()">Set Font-weght</button>
+    </div> 
+
+    <script>
+       function myFunction() {
+        document.getElementById("Dom").style.color = "Red";
+        }
+        function my1Function() {
+        document.getElementById("container").style.backgroundColor = "blueviolet";
+        }
+
+        function my2Function() {
+        document.getElementById("Dom").style.padding = "30px";
+        }
+
+        function my3Function() {
+        document.getElementById("Dom").style.fontSize = "30px";
+        }
+
+        function my4Function() {
+        document.getElementById("Dom").style.fontWeight = "bold";
+        }
+
+    </script>
+    
+</body>
+</html>
